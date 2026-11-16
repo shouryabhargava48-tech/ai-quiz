@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="quiz">
+    <header>
+      <h1>AI Quiz</h1>
+      <p id="progress">Question 1 of 5</p>
+    </header>
+
+    <section id="quiz-box">
+      <h2 id="question"></h2>
+      <div id="options" class="options"></div>
+      <p id="feedback" class="feedback" aria-live="polite"></p>
+      <button id="submit">Submit</button>
+    </section>
+
+    <section id="result" class="hidden">
+      <h2>Quiz complete</h2>
+      <p id="score"></p>
+      <button id="restart">Try again</button>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
